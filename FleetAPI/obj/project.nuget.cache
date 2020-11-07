@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qlrn27TPpU98Sp/e0UGWQkZ/4yKOhSJLUJBL5UncVwDjQEIpHzR1Q4lyKztbUepbfROorGHbZq5iUiOobxKRPA==",
+  "dgSpecHash": "JfI+UIYWQGyjYKE1k9NrH6R4e4wyIg0z82myPqnbkRkTuBs9t7dgMnaGEWygiOCw3iLBtZ/QIkHU4LVhAJOn4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Halil\\Documents\\ReactAdmin-FleetAPI\\FleetAPI\\FleetAPI.csproj",
+  "projectFilePath": "C:\\Users\\Halil\\Documents\\Repos\\ReactAdmin-FleetAPI\\FleetAPI\\FleetAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Halil\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\Halil\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

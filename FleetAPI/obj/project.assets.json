@@ -9650,11 +9650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Halil\\Documents\\ReactAdmin-FleetAPI\\FleetAPI\\FleetAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Halil\\Documents\\Repos\\ReactAdmin-FleetAPI\\FleetAPI\\FleetAPI.csproj",
       "projectName": "FleetAPI",
-      "projectPath": "C:\\Users\\Halil\\Documents\\ReactAdmin-FleetAPI\\FleetAPI\\FleetAPI.csproj",
+      "projectPath": "C:\\Users\\Halil\\Documents\\Repos\\ReactAdmin-FleetAPI\\FleetAPI\\FleetAPI.csproj",
       "packagesPath": "C:\\Users\\Halil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Halil\\Documents\\ReactAdmin-FleetAPI\\FleetAPI\\obj\\",
+      "outputPath": "C:\\Users\\Halil\\Documents\\Repos\\ReactAdmin-FleetAPI\\FleetAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
