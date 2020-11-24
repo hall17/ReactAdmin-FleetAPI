@@ -1,6 +1,6 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-namespace FleetAPI.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FleetAPI.Entities
 {
     public class Aircraft
     {
@@ -15,6 +15,7 @@ namespace FleetAPI.Models
         public string SerialNo { get; set; }
         public string Engine { get; set; }
         public string DeliveryDate { get; set; }
+
 
     }
 }

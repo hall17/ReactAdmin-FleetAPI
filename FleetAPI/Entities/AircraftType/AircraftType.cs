@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace FleetAPI.Models
+namespace FleetAPI.Entities
 {
     public class AircraftType
     {
@@ -12,7 +8,6 @@ namespace FleetAPI.Models
         public int Id { get; set; }
         public string Manufacturer { get; set; }
         public string Model { get; set; }
-        [Display(Name = "Model Type")]
         public string ModelType { get; set; }
         public string Engine { get; set; }
     }

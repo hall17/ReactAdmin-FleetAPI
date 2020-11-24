@@ -853,9 +853,6 @@ C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.csprojAssemblyReference.cache
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.AssemblyInfoInputs.cache
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.AssemblyInfo.cs
-C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.csproj.CoreCompileInputs.cache
-C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.csproj.CopyComplete
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\staticwebassets\FleetAPI.StaticWebAssets.Manifest.cache
@@ -863,3 +860,9 @@ C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.dll
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.pdb
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.genruntimeconfig.cache
+C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.csproj.CoreCompileInputs.cache
+C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.MvcApplicationPartsAssemblyInfo.cache

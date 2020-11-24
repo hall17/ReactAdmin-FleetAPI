@@ -1,11 +1,11 @@
-using FleetAPI.Models;
+using FleetAPI.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using FleetAPI.DataAccess;
 
 namespace FleetAPI
 {
@@ -24,6 +24,10 @@ namespace FleetAPI
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
             services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddScoped<IAircraftRepo, AircraftRepo>();
+            services.AddScoped<IAircraftTypeRepo, AircraftTypeRepo>();
+            services.AddScoped<IAircraftService, AircraftService>();
+            services.AddScoped<IAircraftTypeService, AircraftTypeService>();
 
             services.AddDbContext<AppDbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("FleetConnection")));
@@ -55,12 +59,12 @@ namespace FleetAPI
             {
                 app.UseCors(DevelopmentPolicy);
             }
-
-            app.UseMvc(routes =>
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
+                endpoints.MapControllerRoute(
                     name: "default",
-                    template: "{controller}/{action=Index}/{id?}");
+                    pattern: "{controller}/{action=Index}/{id?}");
             });
 
  

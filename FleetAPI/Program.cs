@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using FleetAPI.Models;
+using FleetAPI.DataAccess;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -19,18 +15,22 @@ namespace FleetAPI
             var host = CreateHostBuilder(args).Build();
                 //.Run();
                 using (var serviceScope = host.Services.CreateScope())
-            {
+                {
                 try
                 {
                     var context = serviceScope.ServiceProvider.GetService<AppDbContext>();
+                    // context.Database.EnsureDeleted(); delete the database each time application runs.
                     context.Database.Migrate();
+                    DbInitializer.Initialize(context);
+
                 }
                 catch (Exception ex)
                 {
+                    // if it goes wrong, we can see where it went wrong.
                     var logger = serviceScope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-                    logger.LogError(ex, "An error occurred initializing the DB.");
+                    logger.LogError(ex, "An error occurred while migration was in progress.");
                 }
-            }
+                }
             host.Run();
         }
 
