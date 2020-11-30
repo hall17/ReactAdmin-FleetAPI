@@ -6,22 +6,28 @@ import Dashboard from './Dashboard';
 import { AcList, AcEdit, AcCreate, AcDelete } from './components/Aircrafts'
 import { AcTypeList, AcTypeEdit, AcTypeCreate, AcTypeDelete } from './components/AircraftTypes'
 import {FleetStatus} from './components/FleetStatus'
+import {AgGrid} from './components/agGrid'
 const dataProvider = simpleRestProvider('/api');
 const App = () => {
     return (
         <Admin options={{ label: 'Fleet Status' }} dataProvider={dataProvider}>
+            <Resource
+                options={{ label: 'ag-Grid' }}
+                name="Aircraft"
+                list={AgGrid}
+            />
              <Resource
                 options={{ label: 'Fleet Status' }}
                 name="FleetStatus"
                 list={FleetStatus}
                 icon={AirplanemodeActiveIcon} />
-            <Resource
+            {/* <Resource
                 options={{ label: 'Fleet' }}
                 name="Aircraft"
                 list={AcList}
                 edit={AcEdit}
-                create={AcCreate}
-                icon={AirplanemodeActiveIcon} />
+                // create={AcCreate}
+                icon={AirplanemodeActiveIcon} /> */}
             <Resource
                 id="types"
                 options={{ label: 'Aircraft Models' }}

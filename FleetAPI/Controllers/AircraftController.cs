@@ -70,17 +70,17 @@ namespace FleetAPI.Controllers
             }
             return Ok(ac);
         }
-        [HttpGet("{registration}")]
-        //[HttpGet("{id:int}")]
-        public async Task<IActionResult> GetByRegistration(string reg)
-        {
-            var ac = await _aircraftService.GetAircraft(id);
-            if (ac == null)
-            {
-                return NotFound();
-            }
-            return Ok(ac);
-        }
+        //[HttpGet("{registration}")]
+        ////[HttpGet("{id:int}")]
+        //public async Task<IActionResult> GetByRegistration(string reg)
+        //{
+        //    var ac = await _aircraftService.GetAircraft(id);
+        //    if (ac == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return Ok(ac);
+        //}
 
         [HttpPost]
         public async Task<IActionResult> Add(Aircraft ac)

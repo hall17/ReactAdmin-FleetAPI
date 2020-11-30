@@ -21,6 +21,7 @@ export const FleetStatus = props => {
         data.forEach(model => totalCount += model.quantity)
         return totalCount
     }
+    console.log(props)
     if(data)
     {
        const handleOpen = model => {

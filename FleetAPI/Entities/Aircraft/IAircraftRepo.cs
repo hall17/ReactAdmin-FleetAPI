@@ -7,7 +7,7 @@ namespace FleetAPI.Entities
     {
         //Task<IEnumerable<FleetStatusdto>> GetFleetStatus();
         Task<Aircraft> GetAircraft(int id);
-        Task<Aircraft> GetAircraftByRegistration(string reg);
+        //Task<Aircraft> GetAircraftByRegistration(string reg);
 
         IQueryable<Aircraft> GetAircrafts();
         Task<Aircraft> AddAircraft(Aircraft ac);
