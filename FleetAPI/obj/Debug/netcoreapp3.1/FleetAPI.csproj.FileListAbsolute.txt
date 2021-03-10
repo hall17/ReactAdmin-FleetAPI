@@ -690,7 +690,6 @@ C:\Users\Halil\Documents\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\Fl
 C:\Users\Halil\Documents\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.genruntimeconfig.cache
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\FleetAPI.exe
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\FleetAPI.deps.json
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp3.1\FleetAPI.runtimeconfig.json
@@ -866,3 +865,4 @@ C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\bin\Debug\netcoreapp
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.csproj.CoreCompileInputs.cache
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\FleetAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Halil\Documents\Repos\ReactAdmin-FleetAPI\FleetAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\FleetAPI.styles.css
